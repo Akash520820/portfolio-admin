@@ -34,7 +34,7 @@ jobs:
         env:
           VITE_API_URL: ${{ secrets.VITE_API_URL }}
           VITE_PUBLIC_SITE_URL: ${{ vars.VITE_PUBLIC_SITE_URL }}
-          VITE_BASE_PATH: /mern-portfolio-admin/   # must match this repo's name
+          VITE_BASE_PATH: /portfolio-admin/   # must match this repo's name
         run: npm run build
 
       - name: Upload build artifact
